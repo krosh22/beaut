@@ -466,7 +466,7 @@ hr {
 
     .grid-item-catalog.title-2 {
         grid-column: span 3/2;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .grid-item-catalog.title-1 {
@@ -487,7 +487,7 @@ hr {
     }
 
     .grid-item-catalog.title-4 {
-        grid-column: span 7;
+        grid-column: span 8;
         max-width: 295px;
         margin-left: 30px;
     }
