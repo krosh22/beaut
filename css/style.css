@@ -464,16 +464,20 @@ hr {
         flex-direction: column;
     }
 
-    .grid-item-catalog.title-2 {
-        grid-column: span 3/2;
+    .grid-item-catalog.title-1, .grid-item-catalog.title-2, .grid-item-catalog.title-3, .grid-item-catalog.title-4 {
         margin-left: 30px;
         max-width: 295px;
+        width: 295px;
+    }
+
+    .grid-item-catalog.title-2 {
+        grid-column: span 3/2;
+
     }
 
     .grid-item-catalog.title-1 {
         grid-column: span 2/1;
-        max-width: 295px;
-        margin-left: 30px;
+
     }
 
     .grid-item-title {
@@ -482,15 +486,13 @@ hr {
     }
 
     .grid-item-catalog.title-3 {
-        grid-column: span 6;
-        max-width: 295px;
-        margin-left: 30px;
+        grid-column: span 4/3;
+
     }
 
     .grid-item-catalog.title-4 {
-        grid-column: span ;
-        max-width: 295px;
-        margin-left: 30px;
+        grid-column: span 5/4;
+
     }
 
     .grid-item-right {
