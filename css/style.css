@@ -487,9 +487,7 @@ hr {
     }
 
     .grid-item-catalog.title-4 {
-        max-width: 295px;
-        grid-column: span 8;
-        margin-left: 20px;
+        display: none;
     }
 
     .grid-item-right {
