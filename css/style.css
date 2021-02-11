@@ -472,7 +472,7 @@ hr {
     .grid-item-catalog.title-1 {
         grid-column: span 2/1;
         max-width: 295px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .grid-item-title {
@@ -483,11 +483,13 @@ hr {
     .grid-item-catalog.title-3 {
         grid-column: span 6;
         max-width: 295px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .grid-item-catalog.title-4 {
-        display: none;
+        grid-column: span 7;
+        max-width: 295px;
+        margin-left: 30px;
     }
 
     .grid-item-right {
